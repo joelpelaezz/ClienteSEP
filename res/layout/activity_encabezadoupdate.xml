@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EBEBEB"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:background="@android:color/black"
+        android:padding="1dp" >
+
+        <ImageButton
+            android:id="@+id/imgBtnPoliceSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_policia" />
+
+        <ImageButton
+            android:id="@+id/imgBtnHospitalSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hospital" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBomberoSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bombero" />
+
+        <ImageButton
+            android:id="@+id/imgBtnUpdateSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ic_todos_servicio" />
+
+    </TableRow>
+
+</RelativeLayout>

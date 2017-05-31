@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Preferencias de Usuario" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="usuario"
+            android:summary="Nombre adicional que se mostrará en el contenido del SMS "
+            android:title="Usuario" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Contactos del Usuario para el envio de SMS" >
+        <EditTextPreference
+            android:defaultValue="3884729680"
+            android:key="contacto1"
+            android:summary="Ingrese su celular Ej: 3884729680 "
+            android:title="Contacto 1" />
+        <EditTextPreference
+            android:defaultValue="3884729680"
+            android:key="contacto2"
+            android:summary="Ingrese su celular Ej: 3884729680 "
+            android:title="Contacto 2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Complemento de Aviso" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibrar"
+            android:summary="Al seleccionar vibrará su celular cuando active la emergencia"
+            android:title="Vibrar" />
+    </PreferenceCategory>
+
+     <PreferenceCategory android:title="Seguimiento de Usuario" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="monitoreo"
+            android:summary="Al tildar su ubicacion se guardará en nuestro servidor"
+            android:title="Monitorearme" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

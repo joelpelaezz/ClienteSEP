@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnImgExplorar"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/btnImgFoto"
+            android:text="Explorar Zona"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/lblCompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/btnImgFoto"
+            android:layout_alignRight="@+id/btnImgFoto"
+            android:gravity="center"
+            android:text="Foto"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btnImgFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lblCompartir"
+            android:layout_alignLeft="@+id/btnPeligro"
+            android:layout_marginTop="22dp"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <ImageButton
+            android:id="@+id/btnImgConfigurar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@+id/lblCompartir"
+            android:src="@android:drawable/ic_menu_preferences" />
+
+        <ImageButton
+            android:id="@+id/btnImgExplorar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnPeligro"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/btnImgConfigurar"
+            android:src="@drawable/abc_ic_search" />
+
+        <Button
+            android:id="@+id/btnPeligro"
+            style="imageButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_panicopeligro"
+            android:height="@dimen/abc_action_bar_stacked_tab_max_width"
+            android:minWidth="@dimen/abc_action_bar_stacked_tab_max_width" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnImgConfigurar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/lblConfigurar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cliente SEP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="foto">Foto</string>
+    <string name="titleapp">Cliente SEP </string>
+    <string name="lblConfigurar">Configuracion</string>
+    <string name="lblCompartir">Compartir</string>
+    <string name="lblFacebook">Facebook</string>
+    <string name="lblSms">sms</string>
+    <string name="lblSMS">SMS</string>
+    <string name="lblServicio">Servicio</string>
+    <string name="lblHintDescripcion">Ingrese breve descripcion</string>
+    <string name="lblenviar">Enviar</string>
+    <string name="title_activity_envia_foto">EnviaFotoActivity</string>
+    <string name="title_activity_preferencia_usuario">PreferenciaUsuarioActivity</string>
+    <string name="title_activity_nuevo_usuario">NuevoUsuario</string>
+    <string name="nombre">Usuario</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="telefono">Telefono</string>
+    <string name="comentario">Comentario</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tab_lista">mitab1</string>
+    <string name="tab_mapa">mitab2</string>
+
+    <string-array name="ArrayStringServicios">
+        <item>ELEGIR</item>
+        <item>POLICIA</item>
+        <item>HOSPITAL</item>
+        <item>BOMBERO</item>
+    </string-array>
+
+    <string name="title_activity_notification_receiver">Notificacion</string>
+
+</resources>
